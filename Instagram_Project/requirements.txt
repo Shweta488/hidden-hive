@@ -243,27 +243,4 @@ zipp @ file:///tmp/build/80754af9/zipp_1604001098328/work
 zope.event==4.5.0
 zope.interface @ file:///opt/concourse/worker/volumes/live/de428e3b-00ba-4161-442e-b9e5d25e4219/volume/zope.interface_1602002489816/work
 asgiref @ file:///tmp/build/80754af9/asgiref_1625643473416/work
-cryptography==3.4.7
-Django @ file:///tmp/build/80754af9/django_1625585912945/work
-Pillow==8.3.1
-psycopg2 @ file:///opt/concourse/worker/volumes/live/d12e789f-5b6c-4947-7cc2-187f3a9c9696/volume/psycopg2_1612298599991/work
-pycparser==2.20
-python-decouple==3.4
-pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
-sqlparse @ file:///tmp/build/80754af9/sqlparse_1602184451250/work
-text-to-image==0.0.5
-typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1624965014186/work
-asgiref @ file:///tmp/build/80754af9/asgiref_1625643473416/work
-certifi==2021.5.30
-cffi==1.14.6
-cryptography==3.4.7
-Django @ file:///tmp/build/80754af9/django_1625585912945/work
-Pillow==8.3.1
-psycopg2 @ file:///opt/concourse/worker/volumes/live/d12e789f-5b6c-4947-7cc2-187f3a9c9696/volume/psycopg2_1612298599991/work
-pycparser==2.20
-python-decouple==3.4
-pytz @ file:///tmp/build/80754af9/pytz_1612215392582/work
-sqlparse @ file:///tmp/build/80754af9/sqlparse_1602184451250/work
-text-to-image==0.0.5
-typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1624965014186/work
 
