@@ -1,0 +1,179 @@
+  {% extends "base.html"%}
+  {% block content %}
+  {% load static %}
+
+  <!--<header> -->
+  <body style="background-color:black;">
+    <a href= {% url 'about'%} class="navbar-brand d-flex align-items-center">
+      <em>About Me   </em>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+      </svg>
+    </a>
+</header>
+
+
+  <main role= 'main'>
+
+    <section class="jumbotron text-center">
+
+     <div class="container-fluid">
+         <div class="row" style ="vertical-align:middle;">
+               <div class="overlay" id="centered"></div>
+              <!--<video loop  autoplay muted >
+                 <source src="{% static 'images/01__289_29.mp4' %}" type="video/mp4">
+                 </video>-->
+                 </div>
+                  </div>
+             </section>
+
+<br><br><br><br><br><br><br><br><br>
+        <div class="album py-5 bg">
+          <div class="container">
+
+
+            <div class="row">
+
+                <div class="col-md-4">
+                  <div class="resp   onsive">
+                    <div class="card mb-3 box-shadow" style="width: 25rem; length: 20rem;">
+                      <div class="gallery">
+                        <a target='_self' href=" {% static 'images/Sunflower copy.jpg' %}" alt="Uh Oh!">
+                          <img id="homeimage" src=" {% static 'images/Sunflower copy.jpg' %}" alt="Uh Oh!"></a>
+                          <div class="card-body">
+                            <p class="card-text">You are a Sunflower 💛</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                    <div class="col-md-4">
+                        <div class="responsive">
+                          <div class="card mb-3 box-shadow" style="width: 25rem; length: 20rem;">
+                            <div class="gallery">
+                              <a target='_self' href=" {% static 'images/city_copy.jpg' %}" alt="Uh Oh!">
+                                <img id="homeimage" src=" {% static 'images/city_copy.jpg' %}" alt="Uh Oh!"></a>
+                                <div class="card-body">
+                                  <p class="card-text">We are the dreamers of dreams. 💭</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="col-md-4">
+                          <div class="responsive">
+                            <div class="card mb-3 box-shadow" style="width: 25rem; length: 20rem;">
+                              <div class="gallery">
+                                <a target='_self' href=" {% static 'images/green copy.jpg' %}" alt="Uh Oh!">
+                                  <img class='3' id="homeimage" src=" {% static 'images/green copy.jpg' %}" alt="Uh Oh!"></a>
+                                  <div class="card-body">
+                                    <p class="card-text">Of all the paths you take in life make some lead to the lake. 💚</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <div class="col-md-4">
+                            <div class="responsive">
+                              <div class="card mb-3 box-shadow" style="width:25rem; length: 20rem;">
+                                <div class="gallery">
+                                  <a target='_self' href=" {% static 'images/camel_copy.jpg' %}" alt="Uh Oh!">
+                                    <img id="homeimage" src=" {% static 'images/camel_copy.jpg' %}" alt="Uh Oh!"></a>
+                                    <div class="card-body">
+                                      <p class="card-text">Life is like a camel; you can make it do anything except back up. 🐫</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+
+                            <div class="col-md-4">
+                              <div class="responsive">
+                                <div class="card mb-3 box-shadow" style="width: 25rem; length: 20rem;">
+                                  <div class="gallery">
+                                    <a target='_self' href=" {% static 'images/xmas_copy.jpg' %}" alt="Uh Oh!">
+                                      <img id="homeimage" src=" {% static 'images/xmas_copy.jpg' %}" alt="Uh Oh!"></a>
+                                      <div class="card-body">
+                                        <p class="card-text">Fairy Lights on Winter Nights 💫</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+
+                              <div class="col-md-4">
+                                <div class="responsive">
+                                  <div class="card mb-3 box-shadow" style="width: 25rem; length: 20rem;">
+                                    <div class="gallery">
+                                      <a target='_self' href=" {% static 'images/dessert_copy.jpg' %}" alt="Uh Oh!">
+                                        <img id="homeimage" src=" {% static 'images/dessert_copy.jpg' %}" alt="Uh Oh!"></a>
+                                        <div class="card-body">
+                                          <p class="card-text">Love At First Bite. ❣</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                                <div class="col-md-4">
+                                  <div class="responsive">
+                                    <div class="card mb-3 box-shadow" style="width: 25rem; length: 20rem;">
+                                      <div class="gallery">
+                                        <a target='_self' href=" {% static 'images/flower1_copy.jpg' %}" alt="Uh Oh!">
+                                          <img id="homeimage" src=" {% static 'images/flower1_copy.jpg' %}" alt="Uh Oh!"></a>
+                                          <div class="card-body">
+                                            <p class="card-text">Every flower is a soul blossoming in nature 🌸</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+
+                                  <div class="col-md-4">
+                                    <div class="responsive">
+                                      <div class="card mb-3 box-shadow" style="width: 25rem; length: 20rem;">
+                                        <div class="gallery">
+                                          <a target='_self' href=" {% static 'images/fall_copy.jpg' %}" alt="Uh Oh!">
+                                            <img id="homeimage" src=" {% static 'images/fall_copy.jpg' %}" alt="Uh Oh!"></a>
+                                            <div class="card-body">
+                                              <p class="card-text">My favorite color is October. 🍁</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+
+
+                                    <div class="col-md-4">
+                                      <div class="responsive">
+                                        <div class="card mb-3 box-shadow" style="width: 25rem; length: 20rem;">
+                                          <div class="gallery">
+                                            <a target='_self' href=" {% static 'images/lake copy.jpg' %}" alt="Uh Oh!">
+                                              <img id="homeimage" src=" {% static 'images/lake copy.jpg' %}" alt="Uh Oh!"></a>
+                                              <div class="card-body">
+                                                <p class="card-text">Just look at the beauty around you. 🌈</p>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+                                    </div>
+                                  </div>
+                                </div>
+                        </main>
+
+                    </body>
+
+{% endblock %}
