@@ -147,7 +147,6 @@ pydocstyle
 pyflakes==2.2.0
 Pygments 
 pylint 
-pyodbc===4.0.0-unsupported
 pyOpenSSL 
 pyparsing==2.4.7
 PyPDF2==1.26.0
