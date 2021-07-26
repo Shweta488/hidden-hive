@@ -106,9 +106,6 @@ MarkupSafe
 matplotlib 
 mccabe==0.6.1
 mistune 
-mkl-fft==1.2.0
-mkl-random==1.1.1
-mkl-service==2.3.0
 mock==4.0.2
 more-itertools 
 mpmath==1.1.0
