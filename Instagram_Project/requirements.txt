@@ -224,4 +224,3 @@ zipp
 zope.event==4.5.0
 zope.interface 
 asgiref
-
