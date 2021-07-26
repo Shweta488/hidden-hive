@@ -157,7 +157,6 @@ Pygments
 pyinstaller==4.4
 pyinstaller-hooks-contrib==2021.2
 pylint 
-pyodbc===4.0.0-unsupported
 pyOpenSSL 
 pyparsing==2.4.7
 PyPDF2==1.26.0
