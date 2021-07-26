@@ -168,8 +168,6 @@ regex
 requests 
 rope 
 ruamel_yaml==0.15.87
-scikit-image==0.17.2
-scikit-learn 
 scipy 
 seaborn 
 Send2Trash==1.5.0
