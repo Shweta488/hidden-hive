@@ -2,7 +2,8 @@ asgiref
 certifi==2021.5.30
 cffi==1.14.6
 cryptography==3.4.7
-Django 
+Django
+django_heroku
 gunicorn==20.1.0
 Pillow==8.3.1
 psycopg2 
